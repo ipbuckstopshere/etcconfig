@@ -1,0 +1,19 @@
+deb ftp://mirror.switch.ch/mirror/debian/ testing main non-free contrib
+deb-src ftp://mirror.switch.ch/mirror/debian/ testing main non-free contrib
+
+deb http://security.debian.org/ testing/updates main contrib non-free
+deb-src http://security.debian.org/ testing/updates main contrib non-free
+
+deb ftp://mirror.switch.ch/mirror/debian/ unstable main non-free contrib
+deb-src ftp://mirror.switch.ch/mirror/debian/ unstable main non-free contrib
+
+deb ftp://mirror.switch.ch/mirror/debian/ experimental main non-free contrib
+deb-src ftp://mirror.switch.ch/mirror/debian/ experimental main non-free contrib
+
+deb http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
+deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
+
+deb http://liquorix.net/debian sid main
+
+deb file:/home/chris/apt-ng/ photonic main
+deb-src file:/home/chris/apt-ng/ photonic main
