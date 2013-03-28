@@ -15,5 +15,7 @@ deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia un
 
 deb http://liquorix.net/debian sid main
 
+deb http://www.bchemnet.com/suldr/ debian extra
+
 deb file:/home/chris/apt-ng/ photonic main
 deb-src file:/home/chris/apt-ng/ photonic main
