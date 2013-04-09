@@ -1,0 +1,3 @@
+# Debian Multimedia repository
+deb http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
+deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main

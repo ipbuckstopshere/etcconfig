@@ -1,23 +1,17 @@
+# official debian repositories
+
+# Testing
 deb ftp://ftp.debian.org/debian/ testing main non-free contrib
 deb-src ftp://ftp.debian.org/debian/ testing main non-free contrib
 
+# Testing Security Updates
 deb http://security.debian.org/ testing/updates main contrib non-free
 deb-src http://security.debian.org/ testing/updates main contrib non-free
 
+# Unstable
 deb ftp://ftp.debian.org/debian/ unstable main non-free contrib
 deb-src ftp://ftp.debian.org/debian/ unstable main non-free contrib
 
+# Experimental
 deb ftp://ftp.debian.org/debian/ experimental main non-free contrib
 deb-src ftp://ftp.debian.org/debian/ experimental main non-free contrib
-
-deb http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
-deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
-
-deb http://liquorix.net/debian sid main
-
-deb http://www.bchemnet.com/suldr/ debian extra
-
-deb http://download.virtualbox.org/virtualbox/debian wheezy contrib
-
-deb file:/home/chris/apt-ng/ photonic main
-deb-src file:/home/chris/apt-ng/ photonic main
