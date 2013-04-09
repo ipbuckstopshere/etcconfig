@@ -274,7 +274,6 @@ staff-group-for-usr-local
 sudoers
 sudoers.d/
 sysctl.conf
-sysctl.d/
 systemd/
 terminfo/
 texmf/
