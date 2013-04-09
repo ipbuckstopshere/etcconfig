@@ -22,21 +22,27 @@ else
 	apt-get -y --force-yes install deb-multimedia-keyring
 
 	# Liquorix signing key
-	apt-get -y --force-yes install liquorix-keyrings
+	apt-get -y --force-yes install '^liquorix-([^-]+-)?keyring.?'
 
 	# Nanolx signing key
-	wget -q http://www.nanolx.org/apt/photonic.asc \
-		-O /etc/apt/keys/nanolx.key
+	if [[ ! -f /etc/apt/keys/nanolx.key ]]; then
+		wget -q http://www.nanolx.org/apt/photonic.asc \
+			-O /etc/apt/keys/nanolx.key
+	fi
 	apt-key add /etc/apt/keys/nanolx.key
 
 	# Samsung unified printer driver repo signing key
-	wget -q http://www.bchemnet.com/suldr/suldr.gpg \
-		-O /etc/apt/keys/samsung.key
+	if [[ ! -f /etc/apt/keys/samsung.key ]]; then
+		wget -q http://www.bchemnet.com/suldr/suldr.gpg \
+			-O /etc/apt/keys/samsung.key
+	fi
 	apt-key add /etc/apt/keys/samsung.key
 
 	# Virtualbox signing key
-	wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc \
-		-O /etc/apt/keys/virtualbox.key
+	if [[ ! -f /etc/apt/keys/virtualbox.key ]]; then
+		wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc \
+			-O /etc/apt/keys/virtualbox.key
+	fi
 	apt-key add /etc/apt/keys/virtualbox.key
 
 	# update apt index
