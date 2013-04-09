@@ -68,7 +68,6 @@ default/cacerts
 default/console-setup
 default/crda
 default/cron
-default/cups
 default/dbus
 default/devpts
 default/dirmngr
