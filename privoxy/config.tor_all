@@ -1301,6 +1301,7 @@ buffer-limit 4096
 #      would use something like:
 #
 forward-socks5   /               127.0.0.1:9050 .
+forward .i2p 127.0.0.1:4444
 #
 #      The public Tor network can't be used to reach your local
 #      network, if you need to access local servers you therefore
