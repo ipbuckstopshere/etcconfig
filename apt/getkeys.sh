@@ -45,6 +45,9 @@ else
 	fi
 	apt-key add /etc/apt/keys/virtualbox.key
 
+	# i2p signing key
+	apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB2CC88B
+
 	# update apt index
 	apt-get update
 
