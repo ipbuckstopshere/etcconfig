@@ -26,7 +26,7 @@
 ######################################################################
 
 # script config-file
-SCRIPTCONF=/etc/conf.d/privoxy-blacklist
+SCRIPTCONF=/etc/default/privoxy-blacklist
 # dependencies
 DEPENDS=( 'privoxy' 'sed' 'grep' 'bash' 'wget' )
 
