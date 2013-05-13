@@ -56,7 +56,6 @@ crontab
 cups/
 dbus-1/
 debconf.conf
-debdelta/
 debian_version
 default/acpid
 default/alsa-base
