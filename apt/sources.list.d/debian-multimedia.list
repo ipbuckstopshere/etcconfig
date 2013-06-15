@@ -1,3 +1,9 @@
 # Debian Multimedia repository
 deb http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
 deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia unstable main
+
+deb http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia testing main
+deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia testing main
+
+deb http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia experimental main
+deb-src http://debian-multimedia.informatik.uni-erlangen.de/debian-multimedia experimental main
