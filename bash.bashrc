@@ -37,3 +37,4 @@ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 #  fi
 #fi
 source /etc/bashstyle.sh
+source /etc/privoxy-setup.sh
