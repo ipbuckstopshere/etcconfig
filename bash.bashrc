@@ -36,3 +36,4 @@ PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 #    . /etc/bash_completion
 #  fi
 #fi
+source /etc/bashstyle.sh
